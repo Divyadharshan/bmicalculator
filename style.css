@@ -1,0 +1,43 @@
+div{
+    background-color: rgb(217, 222, 228);
+    border-style: solid;
+    border-width:5px;
+    border-color:red;
+    margin : auto;
+    width : 40%;
+    height: 70%;
+    padding-top:40px;
+    text-align:center;
+    font-size:25px;
+}
+
+div:hover{
+transform:scale(1.1);
+}
+
+body{
+ background-color:rgb(90, 130, 200);
+}
+
+@keyframes blink{
+   50%{
+      opacity: 0;
+   }
+}
+
+h2 {
+color : red;
+animation : blink 1s linear infinite;
+text-align:center; 
+font-size:30px;
+}
+
+h1{
+text-align:center; 
+color:gold
+}
+
+h3{
+text-align:center;
+padding-top:10px;
+}
